@@ -83,12 +83,14 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 8px;
 }
 .header-more-info {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
   display: flex;
+  padding: 8px;
 }
 .more-info-imgs {
   display: flex;
@@ -108,8 +110,28 @@ a {
   height: 200px;
   display: flex;
   flex: 0 1 auto;
+  margin-bottom: 8px;
 }
 .text-img {
   font-size: 18px;
   display: flex;
+}
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 18px;
+}
+.maintext {
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-start;
+}
+.author {
+  color: #1f2937;
+  font-weight: bolder;
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
 }
