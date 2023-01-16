@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+/* first blue block*/
 ul {
   list-style: none;
   display: flex;
@@ -76,3 +77,4 @@ a {
   border-radius: 8px;
   border: none;
 }
+/* white info block*/
