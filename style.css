@@ -133,6 +133,7 @@ a {
   font-size: 24px;
   display: flex;
   justify-content: flex-start;
+  margin: 0 100px;
 }
 .author {
   color: #1f2937;
