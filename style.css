@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 /* first blue block*/
 ul {
@@ -37,8 +38,7 @@ a {
 }
 .main-info {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-between;
   gap: 48px;
 }
 .main-info-box1 {
@@ -47,7 +47,7 @@ a {
   align-items: start;
   justify-content: center;
   padding: 8px;
-  flex: 0 1 auto;
+  gap: 8px;
 }
 .hero-text {
   font-size: 48px;
@@ -62,20 +62,23 @@ a {
 }
 .main-info-box2 {
   display: flex;
-  width: 400px;
+  width: 800px;
+  height: 400px;
+  justify-content: center;
+  padding: 8px;
 }
 #img1 {
-  width: 400px;
-  height: 200px;
+  display: flex;
 }
-.button1 {
+.button {
   background-color: #3882f6;
-  color: white;
+  color: #f9faf8;
   font-size: 18px;
   font-family: "roboto";
   padding: 0.3em 1em;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
 }
 /* white info block*/
 .more-info {
@@ -111,6 +114,9 @@ a {
   display: flex;
   flex: 0 1 auto;
   margin-bottom: 8px;
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+  cursor: pointer;
 }
 .text-img {
   font-size: 18px;
@@ -134,4 +140,55 @@ a {
   display: flex;
   justify-content: end;
   font-size: 20px;
+}
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 24px;
+}
+.modal {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #3882f6;
+  width: 480px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  gap: 16px;
+}
+.modal-box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.cta-title {
+  color: #f9faf8;
+  font-weight: bolder;
+  display: flex;
+  justify-content: start;
+  font-size: 20px;
+}
+.cta-text {
+  color: #f9faf8;
+  display: flex;
+  justify-content: start;
+  font-size: 16px;
+}
+.modal-box2 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#button2 {
+  border: 2px solid #f9faf8;
+}
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
 }
